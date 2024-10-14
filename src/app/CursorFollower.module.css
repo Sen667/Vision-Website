@@ -1,0 +1,18 @@
+.cursorWrapper {
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .circle {
+    position: absolute;
+    width: 20px; /* Ajuste la taille ici */
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Change la couleur ici */
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  
